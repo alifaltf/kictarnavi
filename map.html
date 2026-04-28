@@ -13,7 +13,7 @@
   <body>
     <main class="map-screen">
       <header class="map-header">
-        <img class="header-logo" src="assets/kict-logo.png" alt="IIUM KICT logo" />
+        <img class="header-logo" src="./assets/kict-logo.png" alt="IIUM KICT logo" />
         <a class="back-button" href="./index.html">Back</a>
       </header>
 
@@ -30,6 +30,16 @@
           src="https://app.mappedin.com/map/69544ca08dcd71000be3aa3e?embedded=true"
         ></iframe>
       </div>
+      <button class="ar-btn" onclick="goToAR()">Start AR Navigation</button>
+
+    </main>
+
+    
+    <script>
+      function goToAR() {
+        window.location.href = "./arbutton.html";
+      }
+    </script>
     </main>
   </body>
 </html>
